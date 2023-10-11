@@ -1,1 +1,2 @@
 belajar qa engineer di eduwork
+"saya belajar git"
