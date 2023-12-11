@@ -1,5 +1,3 @@
-SELECT * FROM db_eduwork.products;
-SELECT products.user_id, users2.name
+SELECT users2.id, categories.name, categories.status
 FROM users2
-LEFT JOIN products
-ON users2.name = products.name;
+INNER JOIN categories ON users2.id=categories.id;
